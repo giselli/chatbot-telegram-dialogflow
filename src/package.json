@@ -1,0 +1,17 @@
+{
+  "name": "gi-bot-carrefour",
+  "version": "1.0.0",
+  "description": "TelegramBot feito para o desafio Carrefour",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giselli Hara Macedo <gi@hara.ninja>",
+  "license": "GNU-GPL",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.0.0"
+  }
+}

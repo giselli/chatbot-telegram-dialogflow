@@ -1,0 +1,12 @@
+#
+# Parte integrante do sistema TelegramBot 
+# feito para o desafio Carrefour 
+# 
+# date: 20200802
+# author: Giselli Hara Macedo <gi@hara.ninja>
+#
+#
+
+# [START gae_quickstart_yaml]
+runtime: nodejs10
+# [END gae_quickstart_yaml]
