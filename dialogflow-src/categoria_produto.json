@@ -1,0 +1,123 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "categoria_produto",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "mercado",
+      "synonyms": [
+        "mercado",
+        "chocolate",
+        "refrigerante",
+        "açougue",
+        "limpeza",
+        "pets",
+        "matinais",
+        "bebidas",
+        "água",
+        "café",
+        "cerveja",
+        "leite",
+        "pão",
+        "sabão",
+        "biscoito",
+        "ovo",
+        "sabonete",
+        "shampoo",
+        "frutas",
+        "verduras",
+        "sorvete"
+      ]
+    },
+    {
+      "value": "celular",
+      "synonyms": [
+        "celular",
+        "Galaxy",
+        "Xiaomi",
+        "Motorola",
+        "Smartphone",
+        "Iphone",
+        "Samsung Galaxy"
+      ]
+    },
+    {
+      "value": "tv",
+      "synonyms": [
+        "TV",
+        "TVs",
+        "Smart TV",
+        "LG",
+        "UHD",
+        "NoCell",
+        "4K",
+        "Philco",
+        "Sony",
+        "Philips",
+        "Super HD",
+        "tv"
+      ]
+    },
+    {
+      "value": "notebook",
+      "synonyms": [
+        "Notebooks",
+        "Multilaser",
+        "Windows",
+        "IdeaPad",
+        "Lenovo",
+        "Acer",
+        "Positivo",
+        "MackBook",
+        "Touch",
+        "500GB",
+        "notebook"
+      ]
+    },
+    {
+      "value": "eletro",
+      "synonyms": [
+        "Eletrodomésticos",
+        "Máquina de lavar",
+        "Microondas",
+        "Electrolux",
+        "Brastemp",
+        "Geladeira",
+        "Depurador",
+        "Fogão",
+        "Freezer",
+        "Cooktop",
+        "Consul",
+        "Coifa",
+        "eletro"
+      ]
+    },
+    {
+      "value": "carro",
+      "synonyms": [
+        "Pneus",
+        "Pneu",
+        "Aro",
+        "Firestone",
+        "Bridgestone",
+        "Pirelli",
+        "Goodyear",
+        "carro"
+      ]
+    },
+    {
+      "value": "bebe",
+      "synonyms": [
+        "Fraldas",
+        "Pampers",
+        "Huggies",
+        "Turma da Mônica",
+        "bebê"
+      ]
+    }
+  ],
+  "id": "c341d1ae-7fa2-496c-bbe8-4edf1a79bd16",
+  "isOverridable": false
+}

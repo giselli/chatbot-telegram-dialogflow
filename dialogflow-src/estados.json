@@ -1,0 +1,200 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": true,
+  "name": "estados",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "SP",
+      "synonyms": [
+        "SP",
+        "São Paulo"
+      ]
+    },
+    {
+      "value": "AC",
+      "synonyms": [
+        "AC",
+        "Acre"
+      ]
+    },
+    {
+      "value": "AL",
+      "synonyms": [
+        "AL",
+        "Alagoas"
+      ]
+    },
+    {
+      "value": "AP",
+      "synonyms": [
+        "AP",
+        "Amapá"
+      ]
+    },
+    {
+      "value": "AM",
+      "synonyms": [
+        "AM",
+        "Amazonas"
+      ]
+    },
+    {
+      "value": "BA",
+      "synonyms": [
+        "BA",
+        "Bahia"
+      ]
+    },
+    {
+      "value": "CE",
+      "synonyms": [
+        "CE",
+        "Ceará"
+      ]
+    },
+    {
+      "value": "DF",
+      "synonyms": [
+        "DF",
+        "Distrito Federal"
+      ]
+    },
+    {
+      "value": "ES",
+      "synonyms": [
+        "ES",
+        "Espírito Santo"
+      ]
+    },
+    {
+      "value": "Go",
+      "synonyms": [
+        "Go",
+        "Goiás"
+      ]
+    },
+    {
+      "value": "MA",
+      "synonyms": [
+        "MA",
+        "Marnhão"
+      ]
+    },
+    {
+      "value": "MT",
+      "synonyms": [
+        "MT",
+        "Mato Grosso"
+      ]
+    },
+    {
+      "value": "MS",
+      "synonyms": [
+        "MS",
+        "Mato Grosso do Sul"
+      ]
+    },
+    {
+      "value": "MG",
+      "synonyms": [
+        "MG",
+        "Minas Gerais"
+      ]
+    },
+    {
+      "value": "PA",
+      "synonyms": [
+        "PA",
+        "Pará"
+      ]
+    },
+    {
+      "value": "PB",
+      "synonyms": [
+        "PB",
+        "Paraíba"
+      ]
+    },
+    {
+      "value": "PR",
+      "synonyms": [
+        "PR",
+        "Paraná"
+      ]
+    },
+    {
+      "value": "PE",
+      "synonyms": [
+        "PE",
+        "Pernambuco"
+      ]
+    },
+    {
+      "value": "PI",
+      "synonyms": [
+        "PI",
+        "Piauí"
+      ]
+    },
+    {
+      "value": "RJ",
+      "synonyms": [
+        "RJ",
+        "Rio de Janeiro"
+      ]
+    },
+    {
+      "value": "RN",
+      "synonyms": [
+        "RN",
+        "Rio Grande do Norte"
+      ]
+    },
+    {
+      "value": "RS",
+      "synonyms": [
+        "RS",
+        "Rio Grande do Sul"
+      ]
+    },
+    {
+      "value": "RO",
+      "synonyms": [
+        "RO",
+        "Rondônia"
+      ]
+    },
+    {
+      "value": "RR",
+      "synonyms": [
+        "RR",
+        "Roraima"
+      ]
+    },
+    {
+      "value": "SC",
+      "synonyms": [
+        "SC",
+        "Santa Catarina"
+      ]
+    },
+    {
+      "value": "SE",
+      "synonyms": [
+        "SE",
+        "Sergipe"
+      ]
+    },
+    {
+      "value": "TO",
+      "synonyms": [
+        "TO",
+        "Tocantins"
+      ]
+    }
+  ],
+  "id": "6f3a64eb-ba2c-405b-aeef-30b0f9e3a5dc",
+  "isOverridable": false
+}

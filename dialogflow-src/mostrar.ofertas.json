@@ -1,0 +1,227 @@
+{
+  "id": "28a8cdc3-ee9e-4a64-8783-639435f4bafb",
+  "name": "mostrar.ofertas",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "categoria_produto",
+          "dataType": "@categoria_produto",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Temos muitas ofertas em diversos setores como Celulares, Mercado, TVs, Fraldas, etc. Em qual setor tem interesse?"
+          ],
+          "value": "$categoria_produto",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ofertas ",
+          "userDefined": false
+        },
+        {
+          "text": "bebê",
+          "userDefined": false,
+          "alias": "categoria_produto",
+          "meta": "@categoria_produto"
+        }
+      ],
+      "count": 0,
+      "id": "6af685d9-bf24-4209-b10c-4947dfa02c57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Promoções de ",
+          "userDefined": false
+        },
+        {
+          "text": "TV",
+          "userDefined": true,
+          "alias": "categoria_produto",
+          "meta": "@categoria_produto"
+        }
+      ],
+      "count": 0,
+      "id": "291b5041-982c-4aaf-9da7-716adaa8ab87",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quais ",
+          "userDefined": false
+        },
+        {
+          "text": "são",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " as ofertas do dia em ",
+          "userDefined": false
+        },
+        {
+          "text": "celulares",
+          "userDefined": false,
+          "alias": "categoria_produto",
+          "meta": "@categoria_produto"
+        }
+      ],
+      "count": 0,
+      "id": "173a9d37-1016-42ac-97a8-2499b5b38591",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quais são as ofertas ",
+          "userDefined": false
+        },
+        {
+          "text": "do mercado",
+          "userDefined": true,
+          "alias": "categoria_produto",
+          "meta": "@categoria_produto"
+        }
+      ],
+      "count": 0,
+      "id": "fc9f3f33-befb-42d9-a852-612ec0a9f99b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Vocês vendem ",
+          "userDefined": false
+        },
+        {
+          "text": "celular",
+          "userDefined": true,
+          "alias": "categoria_produto",
+          "meta": "@categoria_produto"
+        }
+      ],
+      "count": 0,
+      "id": "91d48c78-28ca-4120-b896-8baafcbedb1a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "TV",
+          "userDefined": true,
+          "alias": "categoria_produto",
+          "meta": "@categoria_produto"
+        },
+        {
+          "text": " em promoção",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a75d8580-d35b-44d9-a7c0-a72dbb198989",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "TV",
+          "userDefined": true,
+          "alias": "categoria_produto",
+          "meta": "@categoria_produto"
+        },
+        {
+          "text": " em oferta",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "71c8a7ba-a01b-4752-a014-ef0dcf8972fb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Eletrônicos",
+          "userDefined": true,
+          "alias": "categoria_produto",
+          "meta": "@categoria_produto"
+        },
+        {
+          "text": " em promoção",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "80e1cad8-3ac7-4390-b0db-baa26dbba227",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Celulares",
+          "userDefined": true,
+          "alias": "categoria_produto",
+          "meta": "@categoria_produto"
+        },
+        {
+          "text": " em promoção",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6f7e34c8-2a11-4ef0-96c0-155136802594",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

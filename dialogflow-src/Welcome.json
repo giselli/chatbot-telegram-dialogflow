@@ -1,0 +1,275 @@
+{
+  "id": "55edd037-3d7c-42ae-8f67-568fc065055b",
+  "name": "Welcome",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Olá! Sou a Alice, sua assistente Carrefour. Em que posso ajudar?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tudo certo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e3667143-77b6-40a5-8907-b00e0a11181d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "563e16cd-6044-4b45-a063-c765c5129653",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "90cd5acb-a5a5-4ac9-a5aa-173d97fa0db0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tudo ok",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "26d9d0a8-4bf8-4299-8aae-c6d284cbf9b0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Boa noite",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "c3e12609-0304-4cab-8b05-f5ca98436662",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Boa ",
+          "userDefined": false
+        },
+        {
+          "text": "tarde",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "1a2b0e97-0c90-4d33-925e-db381f4f0c55",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bom dia",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "aa10be36-0745-4f8d-a90d-b208e49354ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "como vai",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7757ac87-4227-46ad-8378-8ac4f78fabdb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "olá",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "db8e9754-2cf7-4e8e-9781-79ca367aa0b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "oi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c66d4338-0612-41c2-a4ca-5150fdbdfa3b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bão",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "43faf49d-b1cf-401b-957e-2d8e10f0717b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "opa",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3baa3ac1-2b66-44bf-bf7a-81d90d509690",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "fala aí",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "06b7ae4e-640b-4e09-a684-21b0dd284454",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "fala",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "68c0e1b9-1313-480a-9786-cb3e3fdf37d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "saudações",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a5b10e7c-204b-45a5-afda-60e47799fc43",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "oi tudo bem",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5cc5e239-7b2c-4774-910a-3e8e0825c543",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "e aí",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "442c1805-24c0-4ccc-957c-2887228c78d1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "eae",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a460e343-a9b1-4a14-919e-541f0ead227b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

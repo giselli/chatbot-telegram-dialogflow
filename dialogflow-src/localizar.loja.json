@@ -1,0 +1,101 @@
+{
+  "id": "f12c3585-f949-4f7c-98f0-14e3e6737d4c",
+  "name": "localizar.loja",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "location",
+          "dataType": "@sys.location",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Por favor, informe  uma localização (pelo menos cidade e Estado)"
+          ],
+          "value": "$location",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Você pode encontrar uma loja física pelo site https://www.carrefour.com.br/institucional/lojas"
+          ]
+        }
+      ],
+      "resetContexts": true
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tem loja em ",
+          "userDefined": false
+        },
+        {
+          "text": "São Paulo no bairro Morumbi",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.location"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c830e26c-a72f-4648-b67b-3b6e0a07f8ff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Qual é a loja mais próxima da ",
+          "userDefined": false
+        },
+        {
+          "text": "av. Paulista em São Paulo",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.location"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6867fcc8-680c-43c9-900e-b049759d2913",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

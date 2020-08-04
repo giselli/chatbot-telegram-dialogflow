@@ -1,0 +1,135 @@
+{
+  "id": "43e0b6fa-c28e-43a0-8e3c-bc37b91643fe",
+  "name": "mostrar.contatos",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para este tipo de dúvidas, entre em contato pelo telefone 3004-2222 se estiver em regiões metropolitanas e 0800-718-2222 para demais regiões. Atendemos de segunda a domingo, das 08h às 21h"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero falar com a central de atendimento",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6ce1337d-1315-4c7d-b908-fb9ecc4c2d20",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como está o meu pedido",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1c320fb-ace1-41f3-969d-d60c3ca2c974",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero falar com",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " o atendente",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1dd06f6d-296a-4048-83c8-5e3682c1909c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como eu falo com",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " o atendente",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f5fc2a84-b2bc-4e52-8db8-0719e8e84870",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Telefone do SAC",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a870aaed-a049-48a0-a4dc-8f21fcaf470f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Serviço de ",
+          "userDefined": false
+        },
+        {
+          "text": "atendimento",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ao consumidor",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9dd2925-4372-4029-b978-b323cc720110",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

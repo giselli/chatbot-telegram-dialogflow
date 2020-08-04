@@ -1,0 +1,157 @@
+{
+  "id": "ee3ec693-2f28-4ed0-948d-162f0db8fed4",
+  "name": "mostrar.politica.trocas",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Arrependimento de compra",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "23012f54-7aa9-4b49-9c33-02741fab2eb6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Produto com",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " defeito",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2e0d5e76-16c7-4432-852f-0cc113ccecd1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero desfazer ",
+          "userDefined": false
+        },
+        {
+          "text": "uma",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " compra",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90fc2c6e-10f7-48d6-baac-51df3b8673e7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero devolver ",
+          "userDefined": false
+        },
+        {
+          "text": "um",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " produto",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7d7817f0-f6a6-4794-9c2b-d206f276d662",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero trocar ",
+          "userDefined": false
+        },
+        {
+          "text": "um",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " produto",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c362325a-86c2-4fe0-9f9c-cd4e4d3cbbb6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Qual é a política ",
+          "userDefined": false
+        },
+        {
+          "text": "para",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " trocas",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74d24c43-666b-4950-bad1-58ef7b15702e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
