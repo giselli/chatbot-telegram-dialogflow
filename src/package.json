@@ -11,7 +11,7 @@
   "license": "GNU-GPL",
   "dependencies": {
     "body-parser": "*",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "firebase-admin": "^9.0.0"
   }
 }
